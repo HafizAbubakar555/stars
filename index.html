@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- CSS -->
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="./src/output.css">
+    <title>Stars</title>
+</head>
+<body>
+
+<header style="background-image: url(./images/first.png);" class="bg-no-repeat bg-cover bg-center">
+    <!-- nav start -->
+    <nav class=" py-7 px-14 w-full">
+        <div class="flex  flex-col  justify-between  items-center lg:flex-row">
+            <div class="flex">
+                <img src="./images/logo.png" alt="">
+            </div>
+            <div class="flex flex-col  sm:flex-row">
+                <ul id="ul-list" class="flex flex-col justify-center items-center my-4 overflow-hidden h-0 transition-all sm:flex-row sm:h-auto sm:overflow-auto">
+                    <li class="text-custom-red text-xl py-3 font-inter font-normal sm:px-5 xl:px-10"><a href="#">Home</a></li>
+                    <li class="text-white text-xl py-3 font-inter font-normal sm:px-5 xl:px-10 hover:text-custom-red"><a href="#">Brands</a></li>
+                    <li class="text-white text-xl py-3 font-inter font-normal sm:px-5 xl:px-10 hover:text-custom-red"><a href="#">Partners</a></li>
+                    <li class="text-white text-xl py-3 font-inter font-normal sm:px-5 xl:px-10 hover:text-custom-red"><a href="#">Us</a></li>
+                    <button class="bg-custom-red text-white w-[206px] h-[60px] text-xl border-0 rounded-[50px] text-center leading-[60px] font-normal sm:px-5 xl:px-10">Contact</button>
+                </ul>
+            </div>
+        </div>
+          <i id="nav-btn" class="fa-solid fa-bars  absolute bg-white top-10 right-8 text-l cursor-pointer sm:hidden "></i>
+    </nav>
+    <!-- nav end -->
+
+
+    <!-- section 1 start -->
+    <section class="w-full py-8 sm:py-14 md:py-16 lg:py-28 xl:py-36">
+        <div class="flex flex-col justify-center items-center ">
+            <div class="mb-4">
+                <i class="fa-solid fa-star text-[22.15px] text-custom-red bg-custom-black w-8 h-8 text-center leading-8"></i>
+                <i class="fa-solid fa-star text-[22.15px] text-custom-red bg-custom-black w-8 h-8 text-center leading-8"></i>
+                <i class="fa-solid fa-star text-[22.15px] text-custom-red bg-custom-black w-8 h-8 text-center leading-8"></i>
+                <i class="fa-solid fa-star text-[22.15px] text-custom-red bg-custom-black w-8 h-8 text-center leading-8"></i>
+                <i class="fa-solid fa-star text-[22.15px] text-custom-red bg-custom-black w-8 h-8 text-center leading-8"></i>
+            </div>
+            <h1 class="text-white text-[30px] font-bold text-center mx-16 mb-4 sm:text-[33px] md:text-[40px] lg:text-[50px] lg:w-[890px] xl:text-[58px]">STARS&reg; is the erpicenter of live sporting events in Argentina.</h1>
+            <p class="text-white text-[16px] text-center mx-16 sm:text-[18px] md:text-[20px] md:w-[540px]">A brand created by producers and organizers of major events in the scene in Argentina</p>
+        </div>
+    </section>
+    <!-- section 1 end -->
+</header>
+
+<main>
+    <!-- section 2 start -->
+    <section class="w-full px-10 pt-16 pb-8 bg-[#131111] md:pt-20 md:pb-12 lg:pt-24 lg:pb-16 xl:pt-24 xl:pb-16">
+        <div class="flex flex-col justify-center items-center">
+            <h1 class="text-center text-[35px] font-bold mb-9 text-white sm:text-[45px] sm:mb-12 md:text-[55px] lg:text-[59px] lg:mb-16">Our <span class="text-custom-red highlight">Brands</span></h1>
+            <div id="all" class="flex flex-col justify-center items-center lg:flex-row lg:mb-5">
+                <img id="img-1"  class="w-[70%] mb-8 cursor-pointer sm:w-[85%] sm:mb-10 md:w-[90%] lg:mx-5 xl:mx-10 2xl:w-[100%]" src="./images/stars-asket-plan.png" alt="">
+                <img id="img-2" class="w-[70%] mb-8 cursor-pointer sm:w-[85%] sm:mb-10 md:w-[90%] lg:mx-6 xl:mx-12 2xl:w-[100%]" src="./images/stars-padel-red.png" alt="">
+                <img id="img-3" class="w-[70%] mb-8 cursor-pointer sm:w-[85%] sm:mb-10 md:w-[90%] lg:mx-5 xl:mx-10 2xl:w-[100%]" src="./images/stars-futbol-plan.png" alt="">
+            </div>
+            <div id="update"> 
+              <p class="text-center text-[16px] text-white sm:px-10 sm:text-[18px] md:text-[20px] md:px-20 lg:w-[793px]">Our main event consists of a <span class="text-custom-red highlight">Paddle</span> tournament featuring prominent figures from the local content creators scene.STARS PADEL&reg; also had a presence at large-scale events such as the Argentina Game Show in its last two editions,with sponsorship from major brands.</p>
+            </div>
+        </div>
+    </section>
+    <!-- section 2 end -->
+    <!-- section 3 start-->
+<section>     
+    <div class="py-1 bg-[#131111]"
+  data-flickity='{ "wrapAround": true }'>
+  <div class="w-[80%] m-[20px] sm:w-[40%] lg:w-[33%]">
+    <img  class="w-[100%]" src="./images/one.png" alt="">
+  </div>
+  <div class="w-[80%] m-[10px] sm:w-[40%] lg:w-[33%]">
+    <img class="w-[100%]" src="./images/two.png" alt="">
+  </div>
+  <div class="w-[80%] m-[10px] sm:w-[40%] lg:w-[33%]">
+    <img class="w-[100%]" src="./images/three.png" alt="">
+  </div>
+  <div class="w-[80%] m-[10px] sm:w-[40%] lg:w-[33%]">
+    <img class="w-[100%]" src="./images/four.png" alt="">
+  </div>
+  <div class="w-[80%] m-[10px] sm:w-[40%] lg:w-[33%]">
+    <img class="w-[100%]" src="./images/five.png" alt="">
+  </div>
+  <div class="w-[80%] m-[10px] sm:w-[40%] lg:w-[33%]"> 
+    <img class="w-[100%]" src="./images/six.png" alt="">
+  </div>
+  <div class="w-[80%] m-[10px] sm:w-[40%] lg:w-[33%]" >
+    <img class="w-[100%]" src="./images/seven.png" alt="">
+  </div>
+  <div class="w-[80%] m-[10px] sm:w-[40%] lg:w-[33%]">
+    <img class="w-[100%]" src="./images/eight.png" alt="">
+  </div>
+</section>  
+    <!-- section 3 end -->
+    <!-- section 4 start -->
+  <section class="bg-[#131111] pt-14 w-full">
+    <div class="flex flex-col justify-center items-center">
+      <h1 class="text-white text-[35px] text-center font-bold mb-10 sm:text-[45px] sm:mb-12 md:text-[55px] lg:text-[59px]">Our <span class="text-custom-red">Partners</span></h1>
+      <div class="flex flex-col justify-center items-center bg-[#e3043d] w-full py-5 lg:flex-row lg:py-8">
+        <img class="w-[30%] mb-5 sm:mb-7 md:w-[25%] lg:w-[15%] lg:mb-0 lg:mx-3 xl:mx-5" src="./images/speed.png" alt="">
+        <img class="w-[30%] mb-5 sm:mb-7 md:w-[25%] lg:w-[15%] lg:mb-0 lg:mx-3 xl:mx-5" src="./images/head.png" alt="">
+        <img class="w-[30%] mb-5 sm:mb-7 md:w-[25%] lg:w-[15%] lg:mb-0 lg:mx-3 xl:mx-5" src="./images/redbull.png" alt="">
+        <img class="w-[30%] mb-5 sm:mb-7 md:w-[25%] lg:w-[15%] lg:mb-0 lg:mx-3 xl:mx-5" src="./images/Roobet.png" alt="">
+        <img class="w-[30%] sm:mb-7 md:w-[25%] lg:w-[15%] lg:mb-0 lg:mx-3 xl:mx-5" src="./images/HYPESTYLE.png" alt="">
+      </div>
+    </div>
+  </section>   
+    <!-- section 4 end -->
+    <!-- section 5 start -->
+     <section class="bg-[#131111] py-8 w-full sm:pt-12 md:pt-16 xl:pt-24">
+      <div class="flex flex-col justify-center items-center lg:flex-row w-full">
+        <div class="flex flex-col justify-center items-center mx-4 sm:mx-8 lg:w-[45%]">
+          <h2 class="text-white text-[25px] text-center font-bold mb-4 sm:text-[28px] sm:mb-6 md:text-[32px] lg:text-[25px] lg:text-start lg:mb-3 xl:text-[36px] xl:mb-6 xl:w-[640px]">Among them are Cosco Army Awards, Liga de Streamers and AGS.</h2>
+          <p class="text-[#cbc2c5] text-[15px] text-center mb-6 sm:text-[18px] sm:mb-8 md:text-[20px] lg:text-[15px] lg:mb-5 lg:text-start lg:leading-8 xl:text-[20px] xl:mb-9 xl:w-[630px]">Taking advantage of our experience and influence in the industry, we launched the brand with the purpose of creating and organizing our own events bri  nging together the most important figures in the branches of entertainment.</p>
+
+          <p class="text-[#cbc2c5] text-[15px] text-center mb-4 sm:text-[18px] sm:mb-6 md:text-[20px] lg:text-[15px] lg:mb-3 lg:text-start lg:leading-8 xl:text-[20px] xl:mb-6 xl:w-[630px]">Our events aim to promote different sports and entertainment activities, creating a unique audiovisual experience. We aim to unite the best of both worlds in one place.</p>
+        </div>
+        <div class="flex lg:w-[45%] mx-3">
+          <img  class="lg:w-full" src="./images/second.png" alt="">
+        </div>
+      </div>
+     </section>
+    <!-- section 5 end -->
+    <!-- section 6 start -->
+     <section class="bg-[#131111] py-5 sm:py-8 lg:py-10 w-full">
+      <div class="flex flex-col justify-center items-center">
+        <h2 class="text-white text-center font-bold mb-6 text-[15px] mx-5 sm:text-[18px] sm:mx-10 md:mb-8 md:text-[22px] md:mx-16 lg:text-[25.5px] lg:w-[863px] lg:mb-12">In 2022, we are dedicated to holding events exclusively for Padel. We have the participation of Content creators such as <span class="text-custom-red">Coscu</span>, <span class="text-custom-red">Yeyito de Gregorio</span>, <span class="text-custom-red">Markito Navaja</span> and <span class="text-custom-red">Joaco Lopez</span> among others.
+        </h2>
+        <div class="flex justify-center mx-3 mb-6 md:mb-10">
+          <img src="./images/third.png" alt="">
+        </div>
+        <p class="text-[#cbc2c5] text-center text-[12px] mx-5 sm:text-[15px] sm:mx-10 md:text-[18px] md:mx-20 lg:text-[20px] lg:w-[630px]">During 2022 we have the support of brands such as <span class="text-custom-red">RedBull</span>, <span class="text-custom-red">HEAD</span>, <span class="text-custom-red">Strong Dreams</span>, <span class="text-custom-red">Hashi</span> and Loot among others.
+        </p>
+      </div>
+     </section>
+    <!-- section 6 end -->
+    <!-- section 7 start -->
+     <section class="bg-[#131111]  py-8 w-full sm:pt-12 md:pt-16 xl:pt-24">
+      <div class="flex flex-col justify-center items-center lg:flex-row w-full">
+        <div class="flex lg:w-[45%] mx-3">
+          <img class="lg:w-full" src="./images/fourth.png" alt="">
+        </div>
+        <div class="flex flex-col justify-center items-center mx-4 sm:mx-8 lg:w-[45%] lg:items-start">
+          <h1 class="text-white text-[25px] text-center font-bold mb-4 mt-4 sm:text-[28px] sm:mb-6 md:text-[32px] lg:text-[25px] lg:text-start lg:mb-3 xl:text-[36px] xl:mb-6 xl:w-[594px]">2 Individual editions were held</h1>
+
+          <p class="text-[#cbc2c5] text-[15px] text-center mb-6 font-normal sm:text-[18px] sm:mb-8 md:text-[20px] lg:text-[15px] lg:mb-5 lg:text-start lg:leading-8 xl:text-[20px] xl:mb-9 xl:w-[570px]">Throughout the year, two Individual editions were held, of which the winning team of each reached the final. This final was held at the Argentina Game Show, the largest entertainment event in Latin America.</p> 
+
+          <p class="text-[#cbc2c5] text-[15px] text-center mb-4 font-normal sm:text-[18px] sm:mb-6 md:text-[20px] lg:text-[15px] lg:mb-3 lg:text-start lg:leading-8 xl:text-[20px] xl:mb-6 xl:w-[570px]">Within the event, held at the Costa Salguero Center in the city of Buenos Aires, we had our own Padel court in which, apart from the final, several exhibition matches were held, highlighting figures such as Coscu or the historic Tennis player, Guillermo Coria.</p>
+        </div>
+      </div>
+     </section>
+    <!-- section 7 end -->
+    <!-- section 8 start -->
+     <section class="bg-[#131111] py-8 w-full">
+      <div class="flex flex-col justify-center items-center">
+
+        <h1 class="text-white text-[30px] font-bold text-center mb-3 mx-1 sm:text-[40px] md:text-[45px] lg:text-[52px] lg:mb-6 xl:text-[59px]">Position advertising</h1>
+        
+        <div class="flex flex-col justify-center items-center w-full lg:flex-row">
+          <div class="flex mx-5 mb-6 md:mb-9 lg:w-[53%] xl:w-[50%]">
+            <img class="w-[100%]" src="./images/fifth.png" alt="">
+          </div>
+          <div class="flex flex-col justify-center items-center lg:w-[47%] xl-[50%]">
+            <p class="text-white text-[15px] text-center font-normal mb-6 mx-4 sm:text-[20px] md:mb-9 lg:mb-10 lg:text-[22px] xl:mb-20">The proposal has several possibilities to position advertising.</p>
+            <div class="flex mx-5 w-[100%] justify-center items-center">px
+              <img class="w-[90%]" src="./images/sixth.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- section 8 end -->
+    <!-- section 9 start -->
+    <section class="bg-[#131111]  py-8 w-full sm:pt-12 md:pt-16">
+      <div class="flex flex-col justify-center items-center lg:flex-row w-full">
+        <div class="flex lg:w-[45%] mx-3">
+          <img class="lg:w-full" src="./images/seventh.png" alt="">
+        </div>
+        <div class="flex flex-col justify-center items-center mx-4 sm:mx-8 lg:w-[45%] lg:items-start">
+          <h1 class="text-white text-[25px] text-center font-bold mb-4 mt-4 sm:text-[28px] sm:mb-6 md:text-[32px] lg:text-[25px] lg:text-start lg:mb-3 xl:text-[36px] xl:mb-6 xl:w-[594px]">Argentine Paddle Association</h1>
+
+          <p class="text-[#cbc2c5] text-[15px] text-center mb-6 font-normal sm:text-[18px] sm:mb-8 md:text-[20px] lg:text-[15px] lg:mb-5 lg:text-start lg:leading-8 xl:text-[20px] xl:mb-9 xl:w-[570px]">This event will be held in conjunction with the Argentine Paddle Association, and will have the confirmed participation of not only streaming figures, but also television personalities such as Franco Masini or Yeyito de Gregorio.</p> 
+
+          <p class="text-[#cbc2c5] text-[15px] text-center mb-4 font-normal sm:text-[18px] sm:mb-6 md:text-[20px] lg:text-[15px] lg:mb-3 lg:text-start lg:leading-8 xl:text-[20px] xl:mb-6 xl:w-[570px]">In addition to the main broadcast, another broadcast in "Talk Show" format will be held a week before to introduce the players. It will be attended by special guests and Content Creators.</p>
+        </div>
+      </div>
+     </section>
+    <!-- section 9 end -->
+    <!-- section 10 start -->
+    <section class="bg-[#131111] py-0 w-full sm:py-12 md:py-12 xl:py-24">
+      <div class="flex flex-col-reverse justify-center items-center lg:flex-row w-full">
+        <div class="flex flex-col justify-center items-center mx-4 sm:mx-8 lg:w-[45%]">
+          <h2 class="text-white text-[25px] text-center font-bold mb-4 sm:text-[28px] sm:mb-6 md:text-[32px] lg:text-[25px] lg:text-start lg:mb-3 xl:text-[36px] xl:mb-6 xl:w-[640px]">Stars is also committed to independent artists </h2>
+          <p class="text-[#cbc2c5] text-[15px] text-center mb-6 sm:text-[18px] sm:mb-8 md:text-[20px] lg:text-[15px] lg:mb-5 lg:text-start lg:leading-8 xl:text-[20px] xl:mb-9 xl:w-[630px]">This year, Stars is also committed to independent artists and will include shows in its events, with original discography, as well as covers with renowned songs that were licensed to us, through our strategic partnership with DalePlay.</p>
+
+          <p class="text-[#cbc2c5] text-[15px] text-center mb-4 sm:text-[18px] sm:mb-6 md:text-[20px] lg:text-[15px] lg:mb-3 lg:text-start lg:leading-8 xl:text-[20px] xl:mb-6 xl:w-[630px]">Like previous editions, multiple creators will be invited to experience the event in person and generate content around it. If there was something that stood out about Stars Padel in 2022, it was...</p>
+        </div>
+        <div class="flex lg:w-[45%] mx-3 mb-5">
+          <img  class="lg:w-full" src="./images/eighth.png" alt="">
+        </div>
+      </div>
+     </section>
+    <!-- section 10 end -->
+    <!-- section 11 start -->
+     <section class="bg-[#131111] py-5 w-full md:px-12 xl:px-16">
+      <div class="flex flex-col justify-center items-center w-full">
+        <h1 class="text-white text-[25px] font-bold text-center mb-5 sm:text-[28px] md:text-[30px] md:mb-10 lg:text-[36px] xl:mb-16">Métricas de transmision</h1>
+        <div class="flex flex-col justify-center items-center w-full lg:flex-row">
+          <div class="flex flex-col justify-center items-center w-full sm:flex-row">
+            <div class="flex flex-col justify-center items-center bg-[#262223] w-1/2 my-3 py-5 rounded-lg mx-4">
+              <h2 class="text-[#e3043d] text-[25px] font-bold mb-2 sm:text-[28px] md:text-[30px] xl:text-[36px]">6h 17m</h2>
+              <p class="text-white text-[13px] mb-3 text-center md:text-[16px] lg:text-[14px] xl:text-[16px]">Duración del stream</p>
+              <p class="text-[#A59C9E] text-[13px] text-center md:text-[16px] lg:text-[14px] xl:text-[16px]">1 m dltimo stream</p>
+            </div>
+            <div class="flex flex-col justify-center items-center bg-[#262223] w-1/2 my-3 py-5 rounded-lg mx-4">
+              <h2 class="text-[#e3043d] text-[25px] font-bold mb-2 sm:text-[28px] md:text-[30px] xl:text-[36px]">700</h2>
+              <p class="text-white text-[13px] mb-3 text-center md:text-[16px] lg:text-[14px] xl:text-[16px]">Media de espectadores</p>
+              <p class="text-[#A59C9E] text-[13px] text-center md:text-[16px] lg:text-[14px] xl:text-[16px]">+700 desde etimo stream</p>
+            </div>
+          </div>
+          <div class="flex flex-col justify-center items-center w-full sm:flex-row">
+            <div class="flex flex-col justify-center items-center bg-[#262223] w-1/2 my-3 py-5 rounded-lg mx-4">
+             <h2 class="text-[#e3043d] text-[25px] font-bold mb-2 sm:text-[28px] md:text-[30px] xl:text-[36px]">1076</h2>
+             <p class="text-white text-[13px] mb-3 text-center md:text-[16px] lg:text-[14px] xl:text-[16px]">Media de espectadores</p>
+             <p class="text-[#A59C9E] text-[13px] text-center md:text-[16px] lg:text-[14px] xl:text-[16px]">+700 desde etimo stream</p>
+            </div>
+            <div class="flex flex-col justify-center items-center bg-[#262223] w-1/2 my-3 py-5 rounded-lg mx-4">
+             <h2 class="text-[#e3043d] text-[25px] font-bold mb-2 sm:text-[28px] md:text-[30px] xl:text-[36px]">8806</h2>
+             <p class="text-white text-[13px] mb-3 text-center md:text-[16px] lg:text-[14px] xl:text-[16px]">Espectadores únicos</p>
+             <p class="text-[#A59C9E] text-[13px] text-center md:text-[16px] lg:text-[14px] xl:text-[16px]">+700 desde etimo stream</p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="flex flex-col justify-center items-center w-full lg:flex-row">
+          <div class="flex flex-col justify-center items-center w-full sm:flex-row">
+            <div class="flex flex-col justify-center items-center bg-[#262223] w-1/2 my-3 py-5 rounded-lg mx-4">
+              <h2 class="text-[#e3043d] text-[25px] font-bold mb-2 sm:text-[28px] md:text-[30px] xl:text-[36px]">731</h2>
+              <p class="text-white text-[13px] mb-3 text-center md:text-[16px] lg:text-[14px] xl:text-[16px]">Participantes del chat</p>
+              <p class="text-[#A59C9E] text-[13px] text-center md:text-[16px] lg:text-[14px] xl:text-[16px]">1 m dltimo stream</p>
+            </div>
+            <div class="flex flex-col justify-center items-center bg-[#262223] w-1/2 my-3 py-5 rounded-lg mx-4">
+              <h2 class="text-[#e3043d] text-[25px] font-bold mb-2 sm:text-[28px] md:text-[30px] xl:text-[36px]">19.600</h2>
+              <p class="text-white text-[13px] mb-3 text-center md:text-[16px] lg:text-[14px] xl:text-[16px]">Visualizaciones en vivo</p>
+              <p class="text-[#A59C9E] text-[13px] text-center md:text-[16px] lg:text-[14px] xl:text-[16px]">+700 desde etimo stream</p>
+            </div>
+          </div>
+          <div class="flex flex-col justify-center items-center w-full sm:flex-row">
+            <div class="flex flex-col justify-center items-center bg-[#262223] w-1/2 my-3 py-5 rounded-lg mx-4">
+             <h2 class="text-[#e3043d] text-[25px] font-bold mb-2 sm:text-[28px] md:text-[30px] xl:text-[36px]">939</h2>
+             <p class="text-white text-[13px] mb-3 text-center md:text-[16px] lg:text-[14px] xl:text-[16px]">Seguidores</p>
+             <p class="text-[#A59C9E] text-[13px] text-center md:text-[16px] lg:text-[14px] xl:text-[16px]">+700 desde etimo stream</p>
+            </div>
+            <div class="flex flex-col justify-center items-center bg-[#262223] w-1/2 my-3 py-5 rounded-lg mx-4">
+             <h2 class="text-[#e3043d] text-[25px] font-bold mb-2 sm:text-[28px] md:text-[30px] xl:text-[36px]">2</h2>
+             <p class="text-white text-[13px] mb-3 text-center md:text-[16px] lg:text-[14px] xl:text-[16px]">Nuevas suscripciones</p>
+             <p class="text-[#A59C9E] text-[13px] text-center md:text-[16px] lg:text-[14px] xl:text-[16px]">+700 desde etimo stream</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     </section>
+    <!-- section 11 end -->
+    <!-- section 12 start -->
+     <section class="bg-[#131111] w-full px-10 py-10 lg:pb-28">
+      <div class="flex flex-col justify-center items-center w-full">
+        <h1 class="text-white font-bold text-[30px] mb-4 sm:text-[40px] sm:mb-6 md:text-[45px] lg:text-[53px] lg:mb-20 xl:text-[59px]">Contacto</h1>
+        <div class="flex flex-col justify-center items-center w-full lg:flex-row lg:items-start">
+          <div class="flex flex-col justify-center items-center w-full mb-12 lg:w-1/2 lg:mb-0 lg:mx-6">
+            <input class="bg-[#262223] placeholder-[#A59C9E] w-full h-[50px] pl-5 rounded-lg mb-3 text-[18px] text-white sm:w-[501px] sm:h-[60px] lg:mb-4" type="text" placeholder="Nombre">
+            <input class="bg-[#262223] placeholder-[#A59C9E] w-full h-[50px] pl-5 rounded-lg mb-3 text-[18px] text-white sm:w-[501px] sm:h-[60px] lg:mb-4"  type="text" placeholder="Email">
+            <input class="bg-[#262223] placeholder-[#A59C9E] w-full h-[50px] pl-5 rounded-lg mb-3 text-[18px] text-white sm:w-[501px] sm:h-[60px] lg:mb-4"  type="text" placeholder="Asunto">
+            <textarea class="bg-[#262223] placeholder-[#A59C9E] w-full h-[100px] pl-5 pt-3 rounded-lg mb-4 text-[18px] text-white sm:w-[501px] sm:h-[120px] lg:mb-5"  name="#" id="#" placeholder="Mensaje..."></textarea>
+            <button class="w-[213px] h-[60px] text-center leadig-[60px] bg-[#e3043d] text-[18px] text-white font-bold rounded-[50px]">Enviar</button>
+          </div>
+          <div class="flex flex-col justify-center items-center lg:w-1/2 lg:items-start lg:mx-6">
+            <div class="mb-7 lg:mb-10"> 
+              <div class="flex flex-row justify-center items-center mb-1 lg:justify-start">
+                <i class="fa-solid fa-paper-plane text-[#e3043d] text-[20px] sm:text-[25px]"></i> 
+              </div>
+              <p class="text-[#a59c9e] text-[15px] text-center md:text-[20px]">pr@stars.com.ar</p>
+            </div>
+            <div class="mb-7 lg:mb-10">
+              <div class="flex flex-row justify-center items-center mb-1 lg:justify-start">
+                <i class="fa-solid fa-location-dot text-[#e3043d] text-[20px] sm:text-[25px]"></i>
+                <h2 class="text-white font-bold text-[20px] ml-3">Ubicación</h2>
+              </div>
+              <p class="text-[#a59c9e] text-[15px] text-center md:text-[20px]">Suipacha 531 Piso 8, Capital Federal</p>
+            </div>
+            <div class="mb-7 lg:mb-10">
+              <div class="flex flex-row justify-center items-center mb-1 lg:justify-start">
+                <i class="fa-solid fa-phone text-[#e3043d] text-[20px] sm:text-[25px]"></i>
+              <h2 class="text-white font-bold text-[20px] ml-3">WhatsApp</h2>  
+              </div>
+              <p class="text-[#a59c9e] text-[15px] text-center md:text-[20px]">+54 9 1130977831</p>
+            </div>
+            <div>
+              <i class="fa-brands fa-facebook text-[#e3043d] text-[20px] mx-1 sm:text-[25px] sm:mx-2"></i>
+              <i class="fa-brands fa-instagram text-[#e3043d] text-[20px] mx-1 sm:text-[25px] sm:mx-2"></i>
+              <i class="fa-brands fa-linkedin-in text-[#e3043d] text-[20px] mx-1 sm:text-[25px] sm:mx-2"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- section 12 end -->
+</main>
+
+
+<footer>
+  <!-- section 13 start -->
+   <section class="bg-[#e3043d] pt-7 w-full lg:px-20 lg:pt-16 xl:px-28">
+    <div class="flex flex-col justify-center items-center w-full lg:flex-row">
+      <div class="flex flex-col justify-center items-center w-full sm:flex-row sm:mb-10">
+        <div class="flex justify-center w-full mb-10 sm:w-1/2 sm:mb-0 lg:w-[50%]">
+          <img class="w-[50%] lg:w-full" src="./images/Stars.png" alt="">
+        </div>
+        <div class=" flex flex-col justify-center items-center mb-10 w-full sm:w-1/2 sm:mb-0 ">
+          <div class="flex flex-col justify-center items-center w-full sm:w-[15%] sm:items-start lg:w-[30%]">
+            <h2 class="text-white font-bold text-[18px] mb-5 sm:mb-8">Enlaces</h2>
+            <a class="text-white text-[13px] mb-1 p-1 sm:mb-4 hover:bg-white hover:text-[#e3043d] hover:px-1 hover:rounded-xl hover:font-bold" href="#">Home</a>
+            <a class="text-white text-[13px] mb-1 p-1 sm:mb-4 hover:bg-white hover:text-[#e3043d] hover:px-1 hover:rounded-xl hover:font-bold" href="#">Servicios</a>
+            <a class="text-white text-[13px] p-1 sm:mb-4 hover:bg-white hover:text-[#e3043d] hover:px-1 hover:rounded-xl hover:font-bold"  href="#">Contacto</a>
+          </div>
+        </div>
+      </div>  
+      <div class="flex flex-col justify-center items-center w-full sm:flex-row">
+        <div class="flex flex-col justify-center items-center mb-10 sm:w-1/2 sm:mb-0 sm:mt-[-40px]">
+          <div class="flex flex-col justify-center items-center sm:w-[50%] sm:items-start ">
+            <h2 class="text-white font-bold text-[18px] mb-5 sm:mb-8">Información</h2>
+            <a class="text-white text-[13px] mb-1 p-1 sm:mb-4 hover:bg-white hover:text-[#e3043d] hover:px-1 hover:rounded-xl hover:font-bold" href="#">Historia</a>
+            <a class="text-white text-[13px] mb-1 p-1 sm:mb-4 hover:bg-white hover:text-[#e3043d] hover:px-1 hover:rounded-xl hover:font-bold" href="#">Nosotros</a>
+            <a class="text-white text-[13px] p-1 sm:mb-4 hover:bg-white hover:text-[#e3043d] hover:px-1 hover:rounded-xl hover:font-bold" href="#">Términos y condiciones</a>
+          </div>
+        </div>
+        <div class="flex flex-col justify-center items-center w-full sm:w-1/2 lg:w-[50%]">
+          <h2 class="text-white font-bold text-[18px] mb-5 sm:mb-8">Contacto</h2>
+          <div class="flex flex-col justify-center items-start sm:mb-6">
+            <div class="flex flex-row justify-center items-center mb-2">
+              <i class="fa-solid fa-envelope text-[14px]"></i>
+              <p class="text-white text-[13px] ml-2">pr@stars.com.ar</p>
+            </div>
+            <div class="flex flex-row justify-center items-center mb-6">
+              <i class="fa-solid fa-phone"></i>
+              <p class="text-white text-[13px] ml-1">+54 9 11 3097 7831</p>
+            </div>
+          </div>
+          <div>
+            <i class="fa-brands fa-facebook text-white text-[20px] mx-1 sm:text-[25px] sm:mx-2"></i>
+            <i class="fa-brands fa-instagram text-white text-[20px] mx-1 sm:text-[25px] sm:mx-2"></i>
+            <i class="fa-brands fa-linkedin-in text-white text-[20px] mx-1 sm:text-[25px] sm:mx-2"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+  <!-- section 13 end -->
+  <!-- section 14 start -->
+   <section class="bg-[#e3043d] px-4 py-5">
+    <div>
+      <p class="text-white text-center text-[14px] sm:text-[16px]">STARS® es una marca registrada | Copyright® 2024 | Todos los derechos reservados | Sitio desarrollado por ParadiseDev® y alojado por ParadiseHost®</p>
+    </div>
+   </section>
+  <!-- section 14 end -->
+</footer>
+<!-- JavaScript -->
+<script src="script.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+</html>
